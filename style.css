@@ -1,0 +1,53 @@
+*{
+    background-color: rgb(134, 149, 236);
+}
+
+h3{
+    text-align: center;
+    background-color: rgb(117, 131, 209);
+    color: silver;
+}
+
+.container {
+    display: flex;
+
+}
+
+.container div {
+    background-color: #000000;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 10%;
+    border: 3px solid;
+    
+}
+
+img{
+    opacity: 0.1;
+}
+
+img:hover{
+    transition: 1s;
+    opacity: 1.0;
+    scale: 1.09;
+}
+
+
+button{
+    width: 10%;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(117, 131, 209);
+}
+
+button:hover{
+    background-color: rgb(134, 149, 237);
+}
+
+.Opcje{
+    display: flex;
+    justify-content: center;
+}
